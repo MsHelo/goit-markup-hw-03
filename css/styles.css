@@ -236,7 +236,6 @@ a {
 /*? section#4*/
 .product-list {
   display: flex;
-  margin-left: 156px;
   gap: 36px;
   flex-wrap: wrap;
   column-gap: 24px;
