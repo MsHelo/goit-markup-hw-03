@@ -10,18 +10,18 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0px;
+h6,
+p {
+  margin: 0;
+  padding: 0;
 }
 section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-p {
-  margin: 0px;
-}
-ul {
-  list-style: none;
+ul,
+ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -52,7 +52,6 @@ a {
   display: flex;
 }
 .container {
-  display: flex;
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -235,13 +234,12 @@ a {
 /*? section#4*/
 .product-list {
   display: flex;
-  gap: 36px;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
 }
 .product-item {
-  width: calc((100% - 48px) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 .product-item .box {
   border: 1px solid #e7e9fc;
