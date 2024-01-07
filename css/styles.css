@@ -32,6 +32,7 @@ img {
 a {
   text-decoration: none;
 }
+
 .subtitle {
   color: #2e2f42;
   text-align: center;
@@ -43,15 +44,18 @@ a {
   text-transform: capitalize;
 }
 /* ?header */
-header .container {
-  border-bottom: 1px solid #e5e5e5;
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.nav {
+  align-items: center;
+  display: flex;
 }
 .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
+  width: 1158px;
+  padding: 0 15px;
 }
 .nav-panel {
   display: flex;
@@ -67,6 +71,7 @@ header .container {
   letter-spacing: 0.03em;
   line-height: 1.17;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .studio:hover,
 .studio:focus {
@@ -88,6 +93,9 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   font-family: "Raleway";
+}
+.studio {
+  padding: 24px 0;
 }
 .nav-panel > li a {
   color: #2e2f42;
