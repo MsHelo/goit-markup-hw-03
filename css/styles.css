@@ -241,7 +241,7 @@ a {
   column-gap: 24px;
   row-gap: 48px;
 }
-.product-item {
+.product-list .product-item {
   width: calc((100% - 48px) / 3);
 }
 .product-item .box {
