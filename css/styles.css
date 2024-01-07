@@ -47,6 +47,9 @@ a {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+.header-box {
+  display: flex;
+}
 .nav {
   align-items: center;
   display: flex;
@@ -146,6 +149,7 @@ a {
   min-width: 169px;
   height: 56px;
   border: none;
+  display: block;
 }
 .button:hover,
 .button:focus {
@@ -200,14 +204,12 @@ a {
 .team-list {
   display: flex;
   flex-direction: row;
-  margin-left: 156px;
-  margin-right: 156px;
   gap: 24px;
-  margin-top: 72px;
 }
 .team-item {
   background: var(--WHITE, #fff);
   border-radius: 0 0 4px 4px;
+  width: calc((100% -72px) / 4);
 }
 .team-h {
   color: #2e2f42;
