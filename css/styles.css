@@ -142,7 +142,6 @@ a {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
-  margin-bottom: 188px;
   padding: 16px 32px;
   border-radius: 4px;
   min-width: 169px;
@@ -170,8 +169,6 @@ a {
 }
 .text-list {
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
   gap: 24px;
 }
 .text-item {
@@ -184,7 +181,6 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .sc-text {
   color: #434455;
@@ -218,7 +214,6 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .team-p {
   color: #434455;
@@ -254,7 +249,6 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
 }
 .product-text {
   color: #434455;
@@ -276,7 +270,6 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-bottom: 16px;
   display: inline-block;
 }
 .footer-logo .logo-footer {
@@ -289,6 +282,5 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 16px;
   width: 264px;
 }
