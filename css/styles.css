@@ -181,6 +181,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .sc-text {
   color: #434455;
@@ -214,6 +215,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .team-p {
   color: #434455;
@@ -249,6 +251,7 @@ a {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .product-text {
   color: #434455;
@@ -271,6 +274,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo .logo-footer {
   color: #f4f4fd;
